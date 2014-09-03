@@ -1,0 +1,437 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4525 ]
+"91 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\main.c
+[v F2579 `[16]s  16a t 32 ]
+"92
+[v F2581 `[16]s  16a t 32 ]
+"230
+[v F2594 `(v  1 t 0 ]
+[s S178 . 1 `Vuc 1 RD 1 0 :1:0 
+`Vuc 1 WR 1 0 :1:1 
+`Vuc 1 WREN 1 0 :1:2 
+`Vuc 1 WRERR 1 0 :1:3 
+`Vuc 1 FREE 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 CFGS 1 0 :1:6 
+`Vuc 1 EEPGD 1 0 :1:7 
+]
+[u S187 . 1 `S178 1 . 1 0 ]
+[s S196 . 1 `Vuc 1 RD 1 0 :1:0 
+`Vuc 1 WR 1 0 :1:1 
+`Vuc 1 WREN 1 0 :1:2 
+`Vuc 1 WRERR 1 0 :1:3 
+`Vuc 1 FREE 1 0 :1:4 
+`Vuc 1 . 1 0 :1:5 
+`Vuc 1 CFGS 1 0 :1:6 
+`Vuc 1 EEPGD 1 0 :1:7 
+]
+[u S205 . 1 `S178 1 . 1 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\eeread.c
+[v _eeprom_read `(uc  1 e 1 0 ]
+"7 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\eewrite.c
+[v _eeprom_write `(v  1 e 0 0 ]
+"3 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"12 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\delay.c
+[v _DelayMs `(v  1 e 0 0 ]
+"106 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\main.c
+[v _main `(v  1 e 0 0 ]
+"230
+[v _SensorTriggered `I(v  1 e 0 0 ]
+"262
+[v _CheckOrientation `(v  1 e 0 0 ]
+"281
+[v _LED `(v  1 e 0 0 ]
+"289
+[v _ConfigureInterrupts `(v  1 e 0 0 ]
+"309
+[v _DisableInterrupts `(v  1 e 0 0 ]
+"335
+[v _MazeSetup `(v  1 e 0 0 ]
+"369
+[v _SolveMaze `(v  1 e 0 0 ]
+"510
+[v _EndMaze `(v  1 e 0 0 ]
+"553
+[v _CheckAdjacentCells `(v  1 e 0 0 ]
+"631
+[v _CheckWalls `(v  1 e 0 0 ]
+"758
+[v _ClearMaze `(v  1 e 0 0 ]
+"781
+[v _SaveMaze `(v  1 e 0 0 ]
+"796
+[v _RestoreMaze `(v  1 e 0 0 ]
+"815
+[v _TurnToDirection `(v  1 e 0 0 ]
+"874
+[v _MOVE `(v  1 e 0 0 ]
+"18 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\movement.c
+[v _TurnLeft `(v  1 e 0 0 ]
+"29
+[v _TurnRight `(v  1 e 0 0 ]
+"55
+[v _SteerRight `(v  1 e 0 0 ]
+"64
+[v _SteerLeft `(v  1 e 0 0 ]
+"73
+[v _TurnAround `(v  1 e 0 0 ]
+"791 /hitech/products/compilers/pic18/pro/9.66/dist/linux/include/pic18f2525.h
+[v _EEIF `Vb  1 e 0 @32012 ]
+"841
+[v _EECON1 `Vuc  1 e 1 @4006 ]
+"845
+[v _WREN `Vb  1 e 0 @32050 ]
+"861
+[v _EECON1bits `S187  1 e 1 @4006 ]
+"864
+[v _EECON2 `Vuc  1 e 1 @4007 ]
+"868
+[v _EEDATA `Vuc  1 e 1 @4008 ]
+"872
+[v _EEADR `Vuc  1 e 1 @4009 ]
+"876
+[v _EEADRH `Vuc  1 e 1 @4010 ]
+"1718
+[v _CARRY `Vb  1 e 0 @32448 ]
+"34 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\legacy/ppic18f4525.h
+[v _RD4 `VNb  1 e 0 @31772 ]
+"51
+[v _RB0 `VNb  1 e 0 @31752 ]
+"52
+[v _RB1 `VNb  1 e 0 @31753 ]
+"53
+[v _RB2 `VNb  1 e 0 @31754 ]
+"54
+[v _RB3 `VNb  1 e 0 @31755 ]
+"55
+[v _RB4 `VNb  1 e 0 @31756 ]
+"56
+[v _RB5 `VNb  1 e 0 @31757 ]
+"308 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\include\pic18f4525.h
+[v _PORTB `Vuc  1 e 1 @3969 ]
+"599
+[v _LATD `Vuc  1 e 1 @3980 ]
+"606
+[v _LATD5 `Vb  1 e 0 @31845 ]
+"607
+[v _LATD6 `Vb  1 e 0 @31846 ]
+"608
+[v _LATD7 `Vb  1 e 0 @31847 ]
+"680
+[v _TRISB `Vuc  1 e 1 @3987 ]
+"766
+[v _TRISD `Vuc  1 e 1 @3989 ]
+"1763
+[v _IPEN `Vb  1 e 0 @32391 ]
+"2076
+[v _INT1IF `Vb  1 e 0 @32640 ]
+"2077
+[v _INT2IF `Vb  1 e 0 @32641 ]
+"2078
+[v _INT1IE `Vb  1 e 0 @32643 ]
+"2079
+[v _INT2IE `Vb  1 e 0 @32644 ]
+"2080
+[v _INT1IP `Vb  1 e 0 @32646 ]
+"2081
+[v _INT2IP `Vb  1 e 0 @32647 ]
+"2082
+[v _INT1F `Vb  1 e 0 @32640 ]
+"2116
+[v _INTEDG2 `Vb  1 e 0 @32652 ]
+"2117
+[v _INTEDG1 `Vb  1 e 0 @32653 ]
+"2118
+[v _INTEDG0 `Vb  1 e 0 @32654 ]
+"2120
+[v _RBPU `Vb  1 e 0 @32655 ]
+"2142
+[v _INT0IF `Vb  1 e 0 @32657 ]
+"2145
+[v _INT0IE `Vb  1 e 0 @32660 ]
+"2150
+[v _GIE `Vb  1 e 0 @32663 ]
+"75 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\main.c
+[v _runTimeMode `s  1 e 2 @2073 ]
+"77
+[v _switchPosition `s  1 e 2 @2075 ]
+"82
+[v _mouseCellValue `s  1 e 2 @2056 ]
+"83
+[v _mouseX `s  1 e 2 @2050 ]
+"84
+[v _mouseY `s  1 e 2 @2048 ]
+"85
+[v _mouseDirection `s  1 e 2 @2054 ]
+"88
+[v _mazeStart `s  1 e 2 @2071 ]
+"91
+[v _mazeMap `[16][16]s  1 e 512 @512 ]
+"92
+[v _wallMap `[16][16]s  1 e 512 @0 ]
+"94
+[v _backMove `[512]s  1 e 1024 @1024 ]
+"95
+[v _backMoveCount `s  1 e 2 @2069 ]
+"97
+[v _intFlag `i  1 e 2 @2052 ]
+"99
+[v _directionFlag `s  1 e 2 @2058 ]
+"231
+[v F2595 `uc  1 s 1 @2060 ]
+"554
+[v F2616 `[4]s  1 s 8 @2061 ]
+"106
+[v _main `(v  1 e 0 0 ]
+{
+"121
+[v _runFlag `s  1 a 2 0 ]
+"197
+[v _i `i  1 a 2 2 ]
+"124
+[v _buttonCount `i  1 a 2 4 ]
+"145
+[v _i `i  1 a 2 6 ]
+"171
+[v _buttonCount `i  1 a 2 8 ]
+"224
+} 10
+"335
+[v _MazeSetup `(v  1 e 0 0 ]
+{
+"342
+[v _i `s  1 a 2 0 ]
+"343
+[v _j `s  1 a 2 2 ]
+"367
+} 4
+"369
+[v _SolveMaze `(v  1 e 0 0 ]
+{
+"401
+[v _tempDir `i  1 a 2 0 ]
+"467
+[v _tempDir `i  1 a 2 2 ]
+"466
+[v _tempVar `i  1 a 2 4 ]
+"420
+[v _a `s  1 a 2 6 ]
+"427
+[v _a `s  1 a 2 8 ]
+"437
+[v _a `s  1 a 2 10 ]
+"443
+[v _a `s  1 a 2 12 ]
+"428
+[v _b `s  1 a 2 14 ]
+"444
+[v _b `s  1 a 2 16 ]
+"508
+} 18
+"309
+[v _DisableInterrupts `(v  1 e 0 0 ]
+{
+"327
+} 0
+"289
+[v _ConfigureInterrupts `(v  1 e 0 0 ]
+{
+"307
+} 0
+"262
+[v _CheckOrientation `(v  1 e 0 0 ]
+{
+"273
+} 0
+"631
+[v _CheckWalls `(v  1 e 0 0 ]
+{
+"748
+} 0
+"815
+[v _TurnToDirection `(v  1 e 0 0 ]
+{
+"816
+[v _dirCount `i  1 a 2 0 ]
+"817
+[v _fixedDir `i  1 a 2 2 ]
+"815
+[v _dir `i  1 p 2 0 ]
+"865
+} 4
+"796
+[v _RestoreMaze `(v  1 e 0 0 ]
+{
+"798
+[v _i `i  1 a 2 0 ]
+"803
+[v _i `i  1 a 2 2 ]
+"799
+[v _j `i  1 a 2 4 ]
+"804
+[v _j `i  1 a 2 6 ]
+"810
+} 8
+"510
+[v _EndMaze `(v  1 e 0 0 ]
+{
+"514
+[v _i `i  1 a 2 0 ]
+"525
+[v _bsVar `i  1 a 2 2 ]
+"549
+} 4
+"553
+[v _CheckAdjacentCells `(v  1 e 0 0 ]
+{
+"558
+[v _bottomSquare `s  1 a 2 0 ]
+"561
+[v _holdVar `s  1 a 2 2 ]
+"556
+[v _leftSquare `s  1 a 2 4 ]
+"555
+[v _rightSquare `s  1 a 2 6 ]
+"557
+[v _topSquare `s  1 a 2 8 ]
+"559
+[v _lowestSquare `s  1 a 2 10 ]
+"560
+[v _lowestFound `s  1 a 2 12 ]
+"554
+[v _adjacentSquares `[4]s  1 a 8 14 ]
+"584
+[v _j `i  1 a 2 22 ]
+"593
+[v _i `i  1 a 2 24 ]
+"585
+[v _i `i  1 a 2 26 ]
+"553
+[v _y `s  1 p 2 0 ]
+[v _x `s  1 p 2 2 ]
+"628
+} 28
+"758
+[v _ClearMaze `(v  1 e 0 0 ]
+{
+"762
+[v _i `i  1 a 2 0 ]
+"768
+[v _i `i  1 a 2 2 ]
+"772
+[v _i `i  1 a 2 4 ]
+"769
+[v _j `i  1 a 2 6 ]
+"773
+[v _j `i  1 a 2 8 ]
+"758
+[v _clearRunTime `s  1 p 2 0 ]
+[v _clearEeprom `s  1 p 2 2 ]
+"777
+} 10
+"781
+[v _SaveMaze `(v  1 e 0 0 ]
+{
+"783
+[v _i `i  1 a 2 0 ]
+"788
+[v _i `i  1 a 2 2 ]
+"784
+[v _j `i  1 a 2 4 ]
+"789
+[v _j `i  1 a 2 6 ]
+"794
+} 8
+"874
+[v _MOVE `(v  1 e 0 0 ]
+{
+"878
+[v _j `i  1 a 2 0 ]
+"949
+} 2
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+{
+"6
+[v _sign `uc  1 a 1 0 ]
+[v _counter `uc  1 a 1 1 ]
+"5
+[v _dividend `i  1 p 2 0 ]
+[v _divisor `i  1 p 2 2 ]
+"30
+} 2
+"3 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+{
+"4
+[v _product `ui  1 a 2 0 ]
+"3
+[v _multiplier `ui  1 p 2 0 ]
+[v _multiplicand `ui  1 p 2 2 ]
+"13
+} 2
+"29 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\movement.c
+[v _TurnRight `(v  1 e 0 0 ]
+{
+"38
+} 0
+"6 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\eeread.c
+[v _eeprom_read `(uc  1 e 1 0 ]
+{
+[v _addr `ui  1 p 2 0 ]
+"9
+} 0
+"281 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\main.c
+[v _LED `(v  1 e 0 0 ]
+{
+[v _led `s  1 p 2 0 ]
+"287
+} 0
+"73 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\movement.c
+[v _TurnAround `(v  1 e 0 0 ]
+{
+"83
+} 0
+"18
+[v _TurnLeft `(v  1 e 0 0 ]
+{
+"27
+} 0
+"64
+[v _SteerLeft `(v  1 e 0 0 ]
+{
+"71
+} 0
+"55
+[v _SteerRight `(v  1 e 0 0 ]
+{
+"62
+} 0
+"7 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\sources\eewrite.c
+[v _eeprom_write `(v  1 e 0 0 ]
+{
+[v _addr `ui  1 p 2 0 ]
+[v _value `uc  1 p 1 2 ]
+"9
+} 0
+"12 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\delay.c
+[v _DelayMs `(v  1 e 0 0 ]
+{
+"20
+[v _i `uc  1 a 1 0 ]
+"24
+[v __dcnt `uc  1 a 1 1 ]
+"12
+[v _cnt `uc  1 p 1 0 ]
+"28
+} 2
+"230 C:\Users\tab\Desktop\electronics\micro_mouse\WORKING_SAC\main.c
+[v _SensorTriggered `I(v  1 e 0 0 ]
+{
+"254
+} 0

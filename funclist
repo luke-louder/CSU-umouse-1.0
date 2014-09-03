@@ -1,0 +1,27 @@
+_ClearMaze: CODE, 21270 0 700
+_SolveMaze: CODE, 10078 0 3750
+_ConfigureInterrupts: CODE, 24802 0 22
+_TurnRight: CODE, 24218 0 114
+_CheckAdjacentCells: CODE, 13828 0 2354
+_SteerRight: CODE, 24640 0 70
+_main: CODE, 16182 0 1354
+_MOVE: CODE, 18552 0 1000
+_SteerLeft: CODE, 24570 0 70
+_MazeSetup: CODE, 17536 0 1016
+_TurnToDirection: CODE, 19552 0 992
+___awmod: CODE, 23336 0 306
+_SensorTriggered: CODE, 23642 0 212
+_RestoreMaze: CODE, 20544 0 726
+_TurnAround: CODE, 23854 0 134
+_TurnLeft: CODE, 24104 0 114
+___wmul: CODE, 23988 0 116
+_EndMaze: CODE, 22658 0 678
+_SaveMaze: CODE, 21970 0 688
+_DisableInterrupts: CODE, 24780 0 22
+_CheckOrientation: CODE, 24424 0 74
+_DelayMs: CODE, 24498 0 72
+_CheckWalls: CODE, 108 0 9970
+_eeprom_read: CODE, 24710 0 48
+_LED: CODE, 24758 0 22
+_eeprom_write: CODE, 24332 0 92
+Total: 24716
